@@ -29,4 +29,5 @@ This addon only serves to provide some slight automation for this process.
 This addon is intended to assist in generating card content in a platform independent way.
 
 *[MCD]: Massive-Context Clozed Deletions
+
 *[MCS]: Massive-Context Cloze-Highlighted Sentences
