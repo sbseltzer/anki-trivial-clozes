@@ -1,5 +1,5 @@
-# Anki Massive-Context Cloze-Highlighted Sentences (MCS)
-Based on the AJATT MCD concept. What an awful name, but the MCS acronym helps. Essentially the same as an MCD, but clozes are not a classical clozed deletion. Although this says Sentences, it could be any text. The name mostly reflects my own use-case.
+# Anki MCS (Massive-Context Cloze-Highlighted Sentences)
+Based on the AJATT MCD (Massive-Context Clozed Deletion) concept. What an awful name, but the MCS acronym helps. Essentially the same as an MCD, but clozes are not a classical clozed deletion. Although this says Sentences, it could be any text. The name mostly reflects my own use-case.
 
 Rather, the generated cards show the content (normally a word) being tested.
 It would be the equivalent to setting the hint text of a cloze to the content that would otherwise be hidden.
@@ -27,7 +27,3 @@ It would be the equivalent to setting the hint text of a cloze to the content th
 This addon only serves to provide some slight automation for this process.
 
 This addon is intended to assist in generating card content in a platform independent way.
-
-*[MCD]: Massive-Context Clozed Deletions
-
-*[MCS]: Massive-Context Cloze-Highlighted Sentences
