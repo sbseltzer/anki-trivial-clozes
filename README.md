@@ -1,9 +1,11 @@
-# Anki MCS (Massive-Context Cloze-Highlighted Sentences)
-Based on the AJATT MCD (Massive-Context Clozed Deletion) concept. What an awful name, but the MCS acronym helps. Essentially the same as an MCD, but clozes are not a classical clozed deletion. Although this says Sentences, it could be any text. The name mostly reflects my own use-case.
+# Anki MCT (Massive-Context Cloze-Highlighted Text)
+Based on the AJATT MCD (Massive-Context Clozed Deletion) concept. An MCT is essentially the same as an MCD, but the clozes are not a classical clozed deletion.
 
-Rather, the generated cards show the content (normally a word) being tested.
+Rather, the generated cards shows/highlights the content (normally a word) being tested.
 It would be the equivalent to setting the hint text of a cloze to the content that would otherwise be hidden.
-
+This is much better for those with minimal vocabulary. I prefer it because it feels less like a test.
+Adds to the fun-factor.
+ 
 ## Personal Setup
 
 ### My general process is as such.
