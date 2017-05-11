@@ -42,6 +42,6 @@ Here's how this will work.
 
 Some possible automations.
 
-1. Back side is modified to add an outline for words/definitions by adding `ClozeText = ` for each cloze. It'd be even better to automate wrapping the `ClozeText` part with a search engine link (such as [jisho.org]()) so the user may easily add extra details later.
+1. Back side is modified to add an outline for words/definitions by adding `ClozeText = ` for each cloze. It'd be even better to automate wrapping the `ClozeText` part with a search engine link (such as http://jisho.org) so the user may easily add extra details later.
 1. Automate adding a search engine link for the text. Maybe back side only?
 1. Add customization for search engines, text colors, etc.
