@@ -1,4 +1,4 @@
-# Anki Massive Context Sentences (MCS)
+# Anki Massive Context Clozed Sentences (MCCS)
 Based on the AJATT MCD concept. Essentially the same, but clozes are not a classical clozed deletion.
 
 Rather, the generated cards show the content (normally a word) being tested.
