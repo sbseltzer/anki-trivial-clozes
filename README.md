@@ -29,3 +29,19 @@ Adds to the fun-factor.
 This addon only serves to provide some slight automation for this process.
 
 This addon is intended to assist in generating card content in a platform independent way.
+
+## Behaviour
+
+Here's how this will work.
+
+1. Cards with the MCT tag will be affected
+1. Affected cards must at least have a front side with one or more of the field names (`Sentence`, `Text`, `Front`)
+1. Affected cards must at least have a front side with one of more of the field names (`Meaning`, `Extra`, `Back`)
+1. When affected fields lose unfocus, clozes will have their hint text set to their clozed text (i.e. `{{c1::text::text}}`)
+1. Affected cards will automatically have some javascript added to the end of their HTML. These simply remove `[]` from cloze elements so they may be highlighted. It might also do some work to make user-scripting more convenient.
+
+Some possible automations.
+
+1. Back side is modified to add an outline for words/definitions by adding `ClozeText = ` for each cloze. It'd be even better to automate wrapping the `ClozeText` part with a search engine link (such as [jisho.org]()) so the user may easily add extra details later.
+1. Automate adding a search engine link for the text. Maybe back side only?
+1. Add customization for search engines, text colors, etc.
