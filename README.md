@@ -1,10 +1,10 @@
 # Anki Trivial Clozes
-Used to support a spin on the AJATT MCD review strategy.
-
 Here, clozes are not a classical clozed deletion. Rather, the generated cards shows/highlights the content (normally a word) being tested.
 It would be the equivalent to setting the hint text of a cloze to the content that would otherwise be hidden. In fact, that's exactly what this addon does.
 This is much better for those who hate the fill-in-the-blank feeling.
- 
+
+This is intended to do what [cloze to highlight](https://ankiweb.net/shared/info/1224266113) does, but in a semi-portable way. I use this to support a spin on the AJATT MCD review strategy. 
+
 ## Personal Setup
 
 ### My general process is as such.
