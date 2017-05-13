@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 # See github page to report issues or to contribute:
+# https://github.com/seltzy/anki-trivial-clozes
+#
+# A word of thanks to Arthaey, whose codebase helped me get this started:
 # https://github.com/Arthaey/anki-cloze-blanks
 #
-# Also available for Anki at https://ankiweb.net/shared/info/546020849
 
 # TODO: Seems not to work on normal cloze cards anymore...
 import re
