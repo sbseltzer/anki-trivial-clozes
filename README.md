@@ -1,10 +1,9 @@
-# Anki MCT (Massive-Context Cloze-Highlighted Text)
-Based on the AJATT MCD (Massive-Context Clozed Deletion) concept. An MCT is essentially the same as an MCD, but the clozes are not a classical clozed deletion.
+# Anki Trivial Clozes
+Used to support a spin on the AJATT MCD review strategy.
 
-Rather, the generated cards shows/highlights the content (normally a word) being tested.
-It would be the equivalent to setting the hint text of a cloze to the content that would otherwise be hidden.
-This is much better for those with minimal vocabulary. I prefer it because it feels less like a test.
-Adds to the fun-factor.
+Here, clozes are not a classical clozed deletion. Rather, the generated cards shows/highlights the content (normally a word) being tested.
+It would be the equivalent to setting the hint text of a cloze to the content that would otherwise be hidden. In fact, that's exactly what this addon does.
+This is much better for those who hate the fill-in-the-blank feeling.
  
 ## Personal Setup
 
@@ -30,11 +29,11 @@ This addon only serves to provide some slight automation for this process.
 
 This addon is intended to assist in generating card content in a platform independent way.
 
-## Behaviour
+## Planned Behaviour
 
 Here's how this will work.
 
-1. Cards with the MCT tag will be affected
+1. Cards with the `unclozed` tag will be affected
 1. Affected cards must at least have a front side with one or more of the field names (`Sentence`, `Text`, `Front`)
 1. Affected cards must at least have a front side with one of more of the field names (`Meaning`, `Extra`, `Back`)
 1. When affected fields lose unfocus, clozes will have their hint text set to their clozed text (i.e. `{{c1::text::text}}`)
