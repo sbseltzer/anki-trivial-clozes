@@ -6,7 +6,6 @@
 # https://github.com/Arthaey/anki-cloze-blanks
 #
 
-# TODO: Seems not to work on normal cloze cards anymore...
 import re
 from PyQt4.QtCore import SIGNAL
 from PyQt4.QtGui import QAction, QProgressDialog
